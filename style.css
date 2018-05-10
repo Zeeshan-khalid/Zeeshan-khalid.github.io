@@ -1,0 +1,40 @@
+body {
+    background: url(laptop.jpg) no-repeat center fixed padding-box;
+    background-size: cover;
+/*    opacity: 0.8;
+    filter:alpha(opacity=80);*/
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: red;
+}
+
+h1 {
+	margin-top: 100px;
+	font-family: 'Roboto Slab', serif;
+}
+
+header.startup hr {
+	margin-top: 250px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	transition: 0.6s;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: red;
+}
+
+.btn-lg {
+	padding: 1rem 2rem;
+}
+
+.btn:hover {
+	background-color: black;
+	transform: scale(1.3);
+}
